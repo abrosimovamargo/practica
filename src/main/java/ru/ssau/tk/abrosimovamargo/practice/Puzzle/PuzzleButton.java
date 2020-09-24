@@ -1,4 +1,6 @@
 package ru.ssau.tk.abrosimovamargo.practice.Puzzle;
 
-public class PuzzleButton {
+import javax.swing.*;
+
+public class PuzzleButton extends JButton {
 }
