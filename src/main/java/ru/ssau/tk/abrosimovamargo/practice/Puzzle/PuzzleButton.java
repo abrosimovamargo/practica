@@ -6,6 +6,14 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 public class PuzzleButton extends JButton {
+    public PuzzleButton(){
+        super();
+        initUI();
+    }
+    public PuzzleButton(Image i){
+        super(new ImageIcon(i));
+        initUI();
+    }
     private void initUI(){
         addMouseListener(new MouseAdapter() {
             @Override
