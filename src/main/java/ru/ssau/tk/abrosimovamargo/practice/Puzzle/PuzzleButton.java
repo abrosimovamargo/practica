@@ -6,6 +6,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 public class PuzzleButton extends JButton {
+    private boolean isLastButton;
     public PuzzleButton(){
         super();
         initUI();
@@ -15,6 +16,8 @@ public class PuzzleButton extends JButton {
         initUI();
     }
     private void initUI(){
+        isLastButton = fals;
+
         addMouseListener(new MouseAdapter() {
             @Override
             public void mouseEntered(MouseEvent e) {
@@ -25,5 +28,13 @@ public class PuzzleButton extends JButton {
                 setBorder(BorderFactory.createLineBorder(Color.gray));
             }
         });
+    }
+
+    public boolean isLastButton() {
+        return isLastButton;
+    }
+
+    public void setLastButton(boolean lastButton) {
+        this.isLastButton = lastButton;
     }
 }
