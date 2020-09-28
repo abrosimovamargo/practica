@@ -1,4 +1,7 @@
 package ru.ssau.tk.abrosimovamargo.practice.Puzzle;
 
-public class Game {
+import javax.swing.*;
+
+public class Game extends JFrame{
+
 }
