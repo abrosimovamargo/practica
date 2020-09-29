@@ -7,5 +7,5 @@ import java.util.ArrayList;
 
 public class Game extends JFrame{
     private ArrayList<Point> solution;
-
-}
+    private JPanel panel;
+    }
