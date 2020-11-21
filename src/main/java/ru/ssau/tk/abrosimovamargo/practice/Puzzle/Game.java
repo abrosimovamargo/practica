@@ -8,6 +8,7 @@ import java.util.ArrayList;
 
 public class Game extends JFrame{
     private ArrayList<Point> solution;
+    private ArrayList<PuzzleButton>buttons;
     private JPanel panel;
     private BufferedImage source;
     private BufferedImage resized;
@@ -32,6 +33,10 @@ public class Game extends JFrame{
         solution.add(new Point(3,0));
         solution.add(new Point(3,1));
         solution.add(new Point(3,2));
+        buttons=new ArrayList<>();
+        panel=new JPanel();
+        panel.setBorder(BorderFactory.createLineBorder(Color.gray));
+        panel.setLayout(new GridLayout(4,3))
 
     }
     }
