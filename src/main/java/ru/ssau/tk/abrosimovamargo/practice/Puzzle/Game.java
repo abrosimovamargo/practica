@@ -13,4 +13,25 @@ public class Game extends JFrame{
     private BufferedImage resized;
     private int width, height;
     private final int DESIRED_WIDTH = 400;
+
+    public Game(){
+        initUI();
+
+    }
+    public void initUI() {
+        solution = new ArrayList<>();
+        solution.add(new Point(0,0));
+        solution.add(new Point(0,1));
+        solution.add(new Point(0,2));
+        solution.add(new Point(1,0));
+        solution.add(new Point(1,1));
+        solution.add(new Point(1,2));
+        solution.add(new Point(2,0));
+        solution.add(new Point(2,1));
+        solution.add(new Point(2,2));
+        solution.add(new Point(3,0));
+        solution.add(new Point(3,1));
+        solution.add(new Point(3,2));
+
+    }
     }
