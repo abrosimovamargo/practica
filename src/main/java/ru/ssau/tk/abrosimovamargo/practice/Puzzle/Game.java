@@ -7,9 +7,9 @@ import java.util.ArrayList;
 
 
 public class Game extends JFrame{
-    private ArrayList<Point> solution;
-    private ArrayList<PuzzleButton>buttons;
-    private JPanel panel;
+    private ArrayList<Point> solution = new ArrayList<>();
+    private ArrayList<PuzzleButton>buttons = new ArrayList<>();
+    private JPanel panel = new JPanel();
     private BufferedImage source;
     private BufferedImage resized;
     private int width, height;
@@ -20,7 +20,6 @@ public class Game extends JFrame{
 
     }
     public void initUI() {
-        solution = new ArrayList<>();
         solution.add(new Point(0,0));
         solution.add(new Point(0,1));
         solution.add(new Point(0,2));
@@ -33,10 +32,8 @@ public class Game extends JFrame{
         solution.add(new Point(3,0));
         solution.add(new Point(3,1));
         solution.add(new Point(3,2));
-        buttons=new ArrayList<>();
-        panel=new JPanel();
         panel.setBorder(BorderFactory.createLineBorder(Color.gray));
-        panel.setLayout(new GridLayout(4,3))
+        panel.setLayout(new GridLayout(4,3));
 
     }
     }

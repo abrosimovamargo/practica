@@ -16,7 +16,7 @@ public class PuzzleButton extends JButton {
         initUI();
     }
     private void initUI(){
-        isLastButton = fals;
+        isLastButton = false;
 
         addMouseListener(new MouseAdapter() {
             @Override
