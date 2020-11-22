@@ -10,5 +10,8 @@ public class Point {
         this.y = y;
         this.z = z;
     }
+    double length(Point t){
+        return java.lang.Math.sqrt(t.x * t.x + t.y * t.y + t.z*t.z);
+    }
 }
 
