@@ -10,7 +10,7 @@ public class Class3_2Test {
     public void testString2() {
         String strt1 = "abc";
         new Class3_2().String2(strt1);
-        String strt2 = "cda";
+        String strt2 = "абв";
         new Class3_2().String2(strt2);
     }
 }
