@@ -46,6 +46,9 @@ public class Person {
         return passportId;
     }
 
+    public String toString() {
+        return firstName + (firstName.isEmpty() || lastName.isEmpty() ? "" : " ") + lastName;
+    }
 }
 
 
