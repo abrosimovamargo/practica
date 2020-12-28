@@ -18,4 +18,5 @@ public class MainClass {
             Point myPoint2 = new Point(1,6,4);
             Point myPoint3 = new Point(47,6,0);
         }
+
 }

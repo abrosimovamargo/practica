@@ -11,7 +11,7 @@ public class Person {
         passportId = 123456;
     }
 
-    Person(String myFirstName, String myLastName){
+    public Person(String myFirstName, String myLastName){
         firstName = myFirstName;
         lastName = myLastName;
     }
