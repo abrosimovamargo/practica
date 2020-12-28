@@ -1,8 +1,14 @@
 package ru.ssau.tk.abrosimovamargo.practice.zadachi;
 
+import java.util.Objects;
+
 public class NamedPoint extends Point {
     public String name;
 
+    public String toString() {
+        if (Objects.equals(null, name)) return super.toString();
+        return name + ": " + super.toString();
+    }
     NamedPoint() {
         this(0, 0, 0, "Origin");
     }
