@@ -41,4 +41,15 @@ public class MatrixTest {
         assertEquals(myMatrix3.getAt(1, 2), -11.0);
         assertEquals(myMatrix3.getAt(3, 1), 0.0);
     }
+
+    @Test
+    public void testTestToString() {
+        Matrix firstMatrix = new Matrix(2, 2);
+        firstMatrix.setAt(0, 0, 1);
+        firstMatrix.setAt(0, 1, 2);
+        firstMatrix.setAt(1, 0, 3);
+        firstMatrix.setAt(1, 1, 4);
+        System.out.println(firstMatrix);
+
+    }
 }

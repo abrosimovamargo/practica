@@ -20,7 +20,7 @@ public class Person {
         passportId = myPassportId;
     }
 
-    Person(String myFirstName, String myLastName, int myPassportId){
+    public Person(String myFirstName, String myLastName, int myPassportId){
         firstName = myFirstName;
         lastName = myLastName;
         passportId = myPassportId;
