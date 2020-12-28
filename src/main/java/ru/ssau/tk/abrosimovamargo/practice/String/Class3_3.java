@@ -1,7 +1,7 @@
 package ru.ssau.tk.abrosimovamargo.practice.String;
 
 public class Class3_3 {
-    void sameStrings() {
+    static void sameStrings() {
         String s1 = "A";
         String s2 = new String(s1);
 
