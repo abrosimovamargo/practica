@@ -6,8 +6,4 @@ import static org.testng.Assert.*;
 
 public class Class2_30Test {
 
-    @Test
-    public void testArray30() {
-
-    }
 }
