@@ -2,6 +2,8 @@ package ru.ssau.tk.abrosimovamargo.practice.zadachi;
 
 import org.testng.annotations.Test;
 
+import javax.lang.model.element.Name;
+
 import static org.testng.Assert.*;
 
 public class NamedPointTest {
@@ -28,4 +30,5 @@ public class NamedPointTest {
         assertEquals(new NamedPoint(1, 2, 3, "Point").toString(), "Point: [1.0, 2.0, 3.0]");
         assertEquals(new NamedPoint(1, 2, 3).toString(), "[1.0, 2.0, 3.0]");
     }
+
 }
