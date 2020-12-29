@@ -2,7 +2,7 @@ package ru.ssau.tk.abrosimovamargo.practice.zadachi;
 
 import java.util.Objects;
 
-public class NamedPoint extends Point {
+public class NamedPoint extends Point implements Resettable{
     public String name;
 
     public String toString() {
@@ -28,5 +28,10 @@ public class NamedPoint extends Point {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public void reset() {
+        name = "Absent";
     }
 }
