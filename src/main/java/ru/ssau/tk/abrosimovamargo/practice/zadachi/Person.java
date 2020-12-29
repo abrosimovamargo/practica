@@ -1,11 +1,13 @@
 package ru.ssau.tk.abrosimovamargo.practice.zadachi;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable {
     private  String firstName ;
     private  String lastName ;
     private  int passportId;
 
-    Person(){
+    public Person(){
         firstName = "Abrosimova";
         lastName = "Margarita";
         passportId = 123456;
